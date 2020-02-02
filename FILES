@@ -1,0 +1,7 @@
+launchglade.sh      : start glade with test data
+
+LabeledComponent.py : minimal python widget
+LabeledComponent.ui : ui template
+test_module.xml     : glade catalog
+test_module.py      : "library" for glade catalog
+use_example.glade   : glade file using the LabeledComponent as custom widget

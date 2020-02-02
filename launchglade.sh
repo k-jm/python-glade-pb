@@ -1,0 +1,4 @@
+#!/bin/sh
+env GLADE_CATALOG_SEARCH_PATH=. GLADE_MODULE_SEARCH_PATH=. PYTHONPATH=$PYTHONPATH:. LC_ALL=C \
+	glade use_example.glade
+

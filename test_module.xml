@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-catalog name="test_module"
+	       library="gladepython"
+	       depends="gtk+">
+  <init-function>glade_python_init</init-function>
+  <glade-widget-classes>
+    <glade-widget-class name="LabeledComponent" generic-name="labeled component" title="LabeledComponent">
+      <post-create-function>lcadaptor</post-create-function>
+    </glade-widget-class>
+  </glade-widget-classes>
+  <glade-widget-group name="local" title="Local">
+    <glade-widget-class-ref name="LabeledComponent"/>
+  </glade-widget-group>
+</glade-catalog>
